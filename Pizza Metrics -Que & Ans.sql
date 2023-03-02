@@ -168,9 +168,10 @@ GROUP BY day_of_week
 ;
 
 Answer: 
+
 # day_of_week	num_pizza
 Wednesday	5
-Thursday	 3
-Saturday	 5
-Friday	   1
+Thursday	3
+Saturday	5
+Friday	1
 
