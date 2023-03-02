@@ -1,4 +1,8 @@
+-- -- Creating a separate database using MYSQL WORKBENCH 8.0 CE
+
+CREATE DATABASE pizza_runner;
 USE pizza_runner;
+
 -- created a table runners
 CREATE TABLE runners
 ( runner_id INT, 
@@ -11,6 +15,7 @@ VALUES (1, '2021-01-01'),
   (4, '2021-01-15');
   
 select * from runners;
+
 -- create a table customer_orders
  CREATE TABLE customer_orders (
   order_id INT,
@@ -78,7 +83,8 @@ VALUES
   (2, 'Vegetarian');
   
 select * from pizza_names;
--- creates a table pizza_recipes
+
+-- created a table pizza_recipes
 
 CREATE TABLE pizza_recipes (
   pizza_id INT,
@@ -91,7 +97,7 @@ VALUES
   (2, '4, 6, 7, 9, 11, 12');
   
   select * from pizza_recipes;
-  -- craeted a table pizza_toppings
+  -- created a table pizza_toppings
   
   CREATE TABLE pizza_toppings (
   topping_id INT,
